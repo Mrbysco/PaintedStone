@@ -1,6 +1,4 @@
-#ant stuff
-/bin/
-/download/
+
 #Remove OS generated garbage
 */.DS_Store
 .DS_Store
@@ -19,7 +17,3 @@ Thumbs.db
 /*.iml
 /*.ipr
 /*.iws
-#Vim backups
-*~
-#manual version override
-version.properties
