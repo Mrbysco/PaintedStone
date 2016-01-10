@@ -18,8 +18,8 @@ version = "1.8.9-0.1"
 minecraft {
     version = "1.8.9-11.15.0.1675"
     runDir = 'run'
-	replace '@VERSION@', project.version
-	mappings = "snapshot_20151217"
+    replace '@VERSION@', project.version
+    mappings = "snapshot_20151217"
 }
 
 processResources {
