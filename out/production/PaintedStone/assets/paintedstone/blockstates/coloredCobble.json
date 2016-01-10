@@ -6,7 +6,7 @@
     },
     "variants": {
         "normal": [{}],
-        "inventory": [{ "model": "builtin/entity" }],
+        "inventory": [{}],
         "color": {
             "white": {
                 "textures": {

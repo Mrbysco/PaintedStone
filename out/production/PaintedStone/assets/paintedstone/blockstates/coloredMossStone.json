@@ -1,7 +1,8 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "paintedstone:colored_block"
+        "model": "minecraft:cube_all",
+        "transform": "forge:default-block"
     },
     "variants": {
         "normal": [{}],
