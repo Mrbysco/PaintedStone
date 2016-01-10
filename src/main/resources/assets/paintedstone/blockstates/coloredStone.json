@@ -1,0 +1,93 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "minecraft:cube_all",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "color": {
+            "white": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_white"
+                }
+            },
+            "orange": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_orange"
+                }
+            },
+            "magenta": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_magenta"
+                }
+            },
+            "light_blue": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_lightblue"
+                }
+            },
+            "yellow": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_yellow"
+                }
+            },
+            "lime": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_lime"
+                }
+            },
+            "pink": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_pink"
+                }
+            },
+            "gray": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_gray"
+                }
+            },
+            "silver": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_silver"
+                }
+            },
+            "cyan": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_aqua"
+                }
+            },
+            "purple": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_purple"
+                }
+            },
+            "blue": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_blue"
+                }
+            },
+            "brown": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_brown"
+                }
+            },
+            "green": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_green"
+                }
+            },
+            "red": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_red"
+                }
+            },
+            "black": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_raw_black"
+                }
+            }
+        }
+    }
+}

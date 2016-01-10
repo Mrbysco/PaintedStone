@@ -1,0 +1,92 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "paintedstone:colored_block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "color": {
+            "white": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_white"
+                }
+            },
+            "orange": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_orange"
+                }
+            },
+            "magenta": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_magenta"
+                }
+            },
+            "light_blue": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_lightblue"
+                }
+            },
+            "yellow": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_yellow"
+                }
+            },
+            "lime": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_lime"
+                }
+            },
+            "pink": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_pink"
+                }
+            },
+            "gray": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_gray"
+                }
+            },
+            "silver": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_silver"
+                }
+            },
+            "cyan": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_aqua"
+                }
+            },
+            "purple": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_purple"
+                }
+            },
+            "blue": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_blue"
+                }
+            },
+            "brown": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_brown"
+                }
+            },
+            "green": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_green"
+                }
+            },
+            "red": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_red"
+                }
+            },
+            "black": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_brick_black"
+                }
+            }
+        }
+    }
+}

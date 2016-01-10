@@ -24,12 +24,6 @@ minecraft {
 
 processResources {
     from(sourceSets.main.resources.srcDirs) {
-        include "mcmod.info"
-
-		expand "version": project.version, "mcversion": project.minecraft.version
-    }
-
-    from(sourceSets.main.resources.srcDirs) {
         exclude '**/*.info'
     }
 }

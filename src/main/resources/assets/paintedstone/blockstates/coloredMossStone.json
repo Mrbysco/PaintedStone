@@ -1,0 +1,93 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "minecraft:cube_all",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "color": {
+            "white": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_white"
+                }
+            },
+            "orange": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_orange"
+                }
+            },
+            "magenta": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_magenta"
+                }
+            },
+            "light_blue": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_lightblue"
+                }
+            },
+            "yellow": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_yellow"
+                }
+            },
+            "lime": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_lime"
+                }
+            },
+            "pink": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_pink"
+                }
+            },
+            "gray": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_gray"
+                }
+            },
+            "silver": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_silver"
+                }
+            },
+            "cyan": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_aqua"
+                }
+            },
+            "purple": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_purple"
+                }
+            },
+            "blue": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_blue"
+                }
+            },
+            "brown": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_brown"
+                }
+            },
+            "green": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_green"
+                }
+            },
+            "red": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_red"
+                }
+            },
+            "black": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_mosscobble_black"
+                }
+            }
+        }
+    }
+}

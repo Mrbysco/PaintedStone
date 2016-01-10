@@ -1,0 +1,92 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "paintedstone:colored_block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "color": {
+            "white": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_white"
+                }
+            },
+            "orange": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_orange"
+                }
+            },
+            "magenta": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_magenta"
+                }
+            },
+            "light_blue": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_lightblue"
+                }
+            },
+            "yellow": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_yellow"
+                }
+            },
+            "lime": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_lime"
+                }
+            },
+            "pink": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_pink"
+                }
+            },
+            "gray": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_gray"
+                }
+            },
+            "silver": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_silver"
+                }
+            },
+            "cyan": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_aqua"
+                }
+            },
+            "purple": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_purple"
+                }
+            },
+            "blue": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_blue"
+                }
+            },
+            "brown": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_brown"
+                }
+            },
+            "green": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_green"
+                }
+            },
+            "red": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_red"
+                }
+            },
+            "black": {
+                "textures": {
+                    "all": "paintedstone:blocks/stone_crackedbrick_black"
+                }
+            }
+        }
+    }
+}
