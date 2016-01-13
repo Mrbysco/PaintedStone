@@ -70,16 +70,6 @@ public final class ModBlocks
     @SideOnly(Side.CLIENT)
     public static void initModels()
     {
-        coloredCobble.initModel();
-        coloredStone.initModel();
-        coloredMossCobble.initModel();
-        coloredStoneBrick.initModel();
-        coloredMossStoneBrick.initModel();
-        coloredCrackedStoneBrick.initModel();
-        coloredStoneRoad.initModel();
-        coloredStoneFancyBrick.initModel();
-        coloredStoneSquareBrick.initModel();
-
         registerVariants(coloredCobble, EnumDyeColor.class, "color");
         registerVariants(coloredStone, EnumDyeColor.class, "color");
         registerVariants(coloredMossCobble, EnumDyeColor.class, "color");

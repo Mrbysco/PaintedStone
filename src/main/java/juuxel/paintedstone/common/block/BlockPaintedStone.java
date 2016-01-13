@@ -83,11 +83,4 @@ public class BlockPaintedStone extends Block
     {
         return new BlockState(this, COLOR);
     }
-
-
-    @SideOnly(Side.CLIENT)
-    public void initModel()
-    {
-        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(getRegistryName(), "inventory"));
-    }
 }
