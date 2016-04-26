@@ -1,11 +1,19 @@
-package juuxel.paintedstone.common.init;
+package mrbysco.paintedstone.common.init;
+
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredCobble;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredCrackedStoneBrick;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredMossCobble;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredMossStoneBrick;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredStone;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredStoneBrick;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredStoneFancyBrick;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredStoneRoad;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredStoneSquareBrick;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
-
-import static juuxel.paintedstone.common.init.ModBlocks.*;
 
 public final class ModCrafting
 {

@@ -1,7 +1,7 @@
-package juuxel.paintedstone.client.gui;
+package mrbysco.paintedstone.client.gui;
 
-import juuxel.paintedstone.common.config.Config;
-import juuxel.paintedstone.common.lib.Reference;
+import mrbysco.paintedstone.common.config.Config;
+import mrbysco.paintedstone.common.lib.Reference;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;

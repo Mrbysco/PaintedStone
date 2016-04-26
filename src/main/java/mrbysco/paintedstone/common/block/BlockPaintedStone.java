@@ -1,23 +1,19 @@
-package juuxel.paintedstone.common.block;
+package mrbysco.paintedstone.common.block;
 
 import java.util.List;
 import java.util.Random;
 
-import juuxel.paintedstone.common.PaintedStone;
-import juuxel.paintedstone.common.lib.Reference;
+import mrbysco.paintedstone.common.PaintedStone;
+import mrbysco.paintedstone.common.lib.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyEnum;
-import net.minecraft.block.state.BlockState;
+import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockPaintedStone extends Block
 {
@@ -79,8 +75,8 @@ public class BlockPaintedStone extends Block
     }
 
     @Override
-    protected BlockState createBlockState()
+    protected BlockStateContainer createBlockState()
     {
-        return new BlockState(this, COLOR);
+        return new BlockStateContainer(this, COLOR);
     }
 }

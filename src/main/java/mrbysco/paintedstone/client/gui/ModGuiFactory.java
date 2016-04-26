@@ -1,4 +1,4 @@
-package juuxel.paintedstone.client.gui;
+package mrbysco.paintedstone.client.gui;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;

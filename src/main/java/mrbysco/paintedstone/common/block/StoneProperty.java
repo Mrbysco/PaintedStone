@@ -1,4 +1,4 @@
-package juuxel.paintedstone.common.block;
+package mrbysco.paintedstone.common.block;
 
 public final class StoneProperty<T>
 {

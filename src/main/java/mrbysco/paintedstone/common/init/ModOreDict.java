@@ -1,9 +1,10 @@
-package juuxel.paintedstone.common.init;
+package mrbysco.paintedstone.common.init;
+
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredCobble;
+import static mrbysco.paintedstone.common.init.ModBlocks.coloredStone;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
-
-import static juuxel.paintedstone.common.init.ModBlocks.*;
 
 public final class ModOreDict
 {

@@ -1,26 +1,27 @@
-package juuxel.paintedstone.common;
+package mrbysco.paintedstone.common;
 
-import juuxel.paintedstone.common.lib.Reference;
+import org.apache.logging.log4j.Logger;
+
+import mrbysco.paintedstone.common.lib.Reference;
+import mrbysco.paintedstone.common.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import juuxel.paintedstone.common.proxy.CommonProxy;
-import org.apache.logging.log4j.Logger;
 
 @Mod(
     modid = Reference.ID,
     name = Reference.NAME,
     version = Reference.VERSION,
-    guiFactory = "juuxel.paintedstone.client.gui.ModGuiFactory",
+    guiFactory = "mrbysco.paintedstone.client.gui.ModGuiFactory",
     acceptedMinecraftVersions = Reference.MC_VERSION
 )
 public class PaintedStone
 {
-    @SidedProxy(clientSide = "juuxel.paintedstone.client.ClientProxy", serverSide = "juuxel.paintedstone.common.proxy.CommonProxy")
+    @SidedProxy(clientSide = "mrbysco.paintedstone.client.ClientProxy", serverSide = "mrbysco.paintedstone.common.proxy.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.Instance

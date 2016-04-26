@@ -1,6 +1,6 @@
-package juuxel.paintedstone.common;
+package mrbysco.paintedstone.common;
 
-import juuxel.paintedstone.common.init.ModBlocks;
+import mrbysco.paintedstone.common.init.ModBlocks;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

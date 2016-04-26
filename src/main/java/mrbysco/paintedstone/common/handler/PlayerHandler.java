@@ -1,20 +1,21 @@
-package juuxel.paintedstone.common.handler;
+package mrbysco.paintedstone.common.handler;
 
-import juuxel.paintedstone.common.block.BlockPaintedStone;
-import juuxel.paintedstone.common.init.ModBlocks;
+import java.util.List;
+
+import mrbysco.paintedstone.common.block.BlockPaintedStone;
+import mrbysco.paintedstone.common.init.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockStoneBrick;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.BlockPos;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.oredict.OreDictionary;
-
-import java.util.List;
 
 public final class PlayerHandler
 {
@@ -37,6 +38,7 @@ public final class PlayerHandler
         "White"
     };
 
+    /*
     @SubscribeEvent
     public void onPlayerInteract(PlayerInteractEvent event)
     {
@@ -80,8 +82,14 @@ public final class PlayerHandler
             }
         }
     }
+    */
 
-    private boolean colorStoneBlocks(World world, BlockPos pos, int inputMeta)
+    private void PlayerDestroyItemEvent(EntityPlayer player, ItemStack stack1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private boolean colorStoneBlocks(World world, BlockPos pos, int inputMeta)
     {
         boolean changed = false;
 

@@ -1,7 +1,7 @@
-package juuxel.paintedstone.client;
+package mrbysco.paintedstone.client;
 
-import juuxel.paintedstone.common.init.ModBlocks;
-import juuxel.paintedstone.common.proxy.CommonProxy;
+import mrbysco.paintedstone.common.init.ModBlocks;
+import mrbysco.paintedstone.common.proxy.CommonProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public final class ClientProxy extends CommonProxy

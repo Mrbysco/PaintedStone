@@ -1,11 +1,10 @@
-package juuxel.paintedstone.common.init;
+package mrbysco.paintedstone.common.init;
 
-import juuxel.paintedstone.common.block.BlockPaintedStone;
-import juuxel.paintedstone.common.block.StoneProperty;
-import juuxel.paintedstone.common.config.Config;
-import juuxel.paintedstone.common.item.ItemPaintedStone;
+import mrbysco.paintedstone.common.block.BlockPaintedStone;
+import mrbysco.paintedstone.common.block.StoneProperty;
+import mrbysco.paintedstone.common.config.Config;
 import net.minecraft.block.Block;
-import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.util.IStringSerializable;
@@ -40,31 +39,49 @@ public final class ModBlocks
         coloredStoneSquareBrick = new BlockPaintedStone(1.5f, "coloredChiseledBrick");
 
         if (Config.coloredCobble)
-            GameRegistry.registerBlock(coloredCobble, ItemPaintedStone.class, "coloredCobble");
+            GameRegistry.registerBlock(coloredCobble);
+        	//GameRegistry.registerWithItem(coloredCobble);
+        	//GameRegistry.registerBlock(coloredCobble, ItemPaintedStone.class, "coloredCobble");
 
-        if (Config.coloredStone)
-            GameRegistry.registerBlock(coloredStone, ItemPaintedStone.class, "coloredStone");
+        /*if (Config.coloredStone)
+            GameRegistry.registerBlock(coloredStone, ItemPaintedStone.class);
+        	//GameRegistry.registerWithItem(coloredStone);
+        	//GameRegistry.registerBlock(coloredStone, ItemPaintedStone.class, "coloredStone");
 
         if (Config.coloredMossCobble)
-            GameRegistry.registerBlock(coloredMossCobble, ItemPaintedStone.class, "coloredMossStone");
+            GameRegistry.registerBlock(coloredMossCobble, ItemPaintedStone.class);
+        	//GameRegistry.registerWithItem(coloredMossCobble);
+        	//GameRegistry.registerBlock(coloredMossCobble, ItemPaintedStone.class, "coloredMossStone");
 
         if (Config.coloredStoneBrick)
-            GameRegistry.registerBlock(coloredStoneBrick, ItemPaintedStone.class, "coloredStoneBrick");
+            GameRegistry.registerBlock(coloredStoneBrick, ItemPaintedStone.class);
+        	//GameRegistry.registerWithItem(coloredStoneBrick);
+        	//GameRegistry.registerBlock(coloredStoneBrick, ItemPaintedStone.class, "coloredStoneBrick");
 
         if (Config.coloredMossStoneBrick)
-            GameRegistry.registerBlock(coloredMossStoneBrick, ItemPaintedStone.class, "coloredMossBrick");
+            GameRegistry.registerBlock(coloredMossStoneBrick, ItemPaintedStone.class);
+        	//GameRegistry.registerWithItem(coloredMossStoneBrick);
+        	//GameRegistry.registerBlock(coloredMossStoneBrick, ItemPaintedStone.class, "coloredMossBrick");
 
         if (Config.coloredCrackedBrick)
-            GameRegistry.registerBlock(coloredCrackedStoneBrick, ItemPaintedStone.class, "coloredCrackedBrick");
+            GameRegistry.registerBlock(coloredCrackedStoneBrick, ItemPaintedStone.class);
+        	//GameRegistry.registerWithItem(coloredCrackedStoneBrick);
+        	//GameRegistry.registerBlock(coloredCrackedStoneBrick, ItemPaintedStone.class, "coloredCrackedBrick");
 
         if (Config.coloredStoneRoad)
-            GameRegistry.registerBlock(coloredStoneRoad, ItemPaintedStone.class, "coloredRoad");
+            GameRegistry.registerBlock(coloredStoneRoad, ItemPaintedStone.class);
+        	//GameRegistry.registerWithItem(coloredStoneRoad);
+        	//GameRegistry.registerBlock(coloredStoneRoad, ItemPaintedStone.class, "coloredRoad");
 
         if (Config.coloredStoneFancyBrick)
-            GameRegistry.registerBlock(coloredStoneFancyBrick, ItemPaintedStone.class, "coloredFancyBrick");
+            GameRegistry.registerBlock(coloredStoneFancyBrick, ItemPaintedStone.class);
+        	//GameRegistry.registerWithItem(coloredStoneFancyBrick);
+        	//GameRegistry.registerBlock(coloredStoneFancyBrick, ItemPaintedStone.class, "coloredFancyBrick");
 
         if (Config.coloredStoneSquareBrick)
-            GameRegistry.registerBlock(coloredStoneSquareBrick, ItemPaintedStone.class, "coloredChiseledBrick");
+            GameRegistry.registerBlock(coloredStoneSquareBrick, ItemPaintedStone.class);
+        	//GameRegistry.registerWithItem(coloredStoneSquareBrick);
+        	//GameRegistry.registerBlock(coloredStoneSquareBrick, ItemPaintedStone.class, "coloredChiseledBrick");*/
     }
 
     @SideOnly(Side.CLIENT)
@@ -84,7 +101,6 @@ public final class ModBlocks
     // Block rendering code from Botania,
     // all credit to Vazkii and williewillus.
     // https://github.com/williewillus/Botania
-    @SideOnly(Side.CLIENT)
     private static <T extends Enum<T> & IStringSerializable> void registerVariants(Block b, Class<T> clazz, String variant) {
         Item item = Item.getItemFromBlock(b);
         for (T e : clazz.getEnumConstants()) {

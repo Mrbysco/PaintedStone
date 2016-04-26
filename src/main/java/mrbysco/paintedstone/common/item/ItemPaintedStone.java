@@ -1,6 +1,6 @@
-package juuxel.paintedstone.common.item;
+package mrbysco.paintedstone.common.item;
 
-import juuxel.paintedstone.common.block.BlockPaintedStone;
+import mrbysco.paintedstone.common.block.BlockPaintedStone;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
